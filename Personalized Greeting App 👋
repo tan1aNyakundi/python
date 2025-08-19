@@ -1,1 +1,10 @@
+"""
+create a program that asks for the user's name and favourite color,
+then prints a personalized greeting like "Hello,[Name]!
+Your favourite color,[Color], is awesome!"
+"""
+user_name = input ("Enter your name: ")
+color = input ("Enter favourite color: ")
+print(f"Hello {user_name}!")
+print(f"Your favourite color, {color}, is awesome!")
 
