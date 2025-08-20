@@ -1,0 +1,16 @@
+"""
+A simple python program that asks the userto input two numbers and a mathematical operation.
+"""
+title = ("A simple python calculator")
+print(title)
+num1 = float (input ("Enter a number: "))
+num2 = float(input("Enter a second number: "))
+operation = input("Enter operation(+,-,/,*): ")
+
+operation1 = "+"
+operation2 = "-"
+operation3 = "*"
+operation4 = "/"
+
+result = eval(f"{num1} {operation} {num2} ")
+print(result)
